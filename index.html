@@ -1,0 +1,557 @@
+﻿<!DOCTYPE html>
+<html dir="ltr" lang="ru-RU" class="no-js">
+	<head>
+		<meta charset="utf-8">
+		<!-- ==============================================
+		Title and basic Metas
+		=============================================== -->
+				
+		<title>Веб-студия «Miami Art» - создание сайтов, интернет-магазинов, фирменного стиля, промышленного дизайна. Создание сайтов с нуля.</title>
+		<meta name="description" content="Создание сайтов, интернет-магазинов, фирменного стиля, промышленного дизайна. Создание сайтов с нуля.">
+		<meta name="keywords" content="Создание сайта, разработка сайта, сайт с нуля, сайт под ключ, интернет-магазин, веб-студия">		
+		<meta name="author" content="prostosheva">
+		<meta name='yandex-verification' content='44d4c1c3878c7c3d' />
+		<!-- ==============================================
+		Mobile Metas
+		=============================================== -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta charset="utf-8">
+		<!-- ==============================================
+		CSS
+		=============================================== -->
+		<link rel="stylesheet" href="css/bootstrap.min.css" /> <!-- Twitter Bootstrap -->
+		<link rel="stylesheet" href="css/bootstrap-responsive.min.css" /> <!-- Twitter Bootstrap Responsive -->
+		<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/jquery.fancybox.css"/> <!-- Fancybox -->
+		<link rel="stylesheet" href="css/flexslider.css"> <!-- Flexslider -->
+		<link rel="stylesheet" href="css/style.css"> <!-- Main stylesheet -->
+		<link rel="stylesheet" href="css/responsive.css"> <!-- Main stylesheet responsive -->
+		
+
+		<!--[if IE 7]>
+			<link rel="stylesheet" href="css/font-awesome-ie7.min.css">
+		<![endif]-->
+		
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+		<!-- ==============================================
+		Fonts
+		=============================================== -->
+		<link href='http://fonts.googleapis.com/css?family=Noto+Sans&subset=cyrillic' rel='stylesheet' type='text/css'>		
+		<!-- ==============================================
+		JS
+		=============================================== -->
+		<script type="text/javascript" src="js/modernizr.js"></script> <!-- Modernizr file -->
+			<script type="text/javascript">
+			$(document).ready(function()
+			{
+			$(".svernutRazvernutFormu").click(function()
+			{
+			var text = $(".svernutRazvernutText").text();
+			if (text == "Свернуть <")
+			{
+			$(".svernutRazvernutText").html("Развернуть >");
+			}
+			else
+			{
+			$(".svernutRazvernutText").html("Свернуть <");
+			}
+			$(".form1").slideToggle();
+			});
+			});
+		</script>
+
+
+
+		<!-- ==============================================
+		Favicons
+		=============================================== -->
+		<link rel="shortcut icon" href="images/icons/favicon.ico">
+
+		<script type="text/javascript" src="//vk.com/js/api/openapi.js?115"></script>
+	</head>
+	<body>
+		
+		<!-- ==============================================
+		Preloader
+		=============================================== -->
+		<div id="preloader">
+    		<div id="loading-animation">&nbsp;</div>
+		</div>
+		
+		<!-- ==============================================
+		Navigation
+		=============================================== -->
+		<nav id="main-nav">
+		
+			<ul>
+		    	<li><a href="#intro">Главная</a></li>
+			<li><a href="#services">Услуги</a></li>			  	
+		    	<li><a href="#about">О нас</a></li>  
+			<li><a href="#contacts">Контакты</a></li>
+			<li><a href="#portfolio">Портфолио</a></li>
+			</ul>
+
+			<a href="#intro" class="logo">
+				<img src="images/logo.png" alt="Miami Art" style="height: 40px; margin-top: -3px;">
+			</a>
+
+			<a href="#" id="responsive-nav">
+				<i class="icon-list"></i>
+			</a>
+
+		</nav>
+		
+		<!-- ==============================================
+		Intro
+		=============================================== -->
+		<section id="intro" class="section">
+
+			<div class="container">
+				<div class="row">
+					<h1>Веб-студия <span style="color:#f6822b;">Miami Art</span>!</h1>
+					<h2></h2>
+					<a class="get-started content-menu-link" href="#services">Услуги
+					</a>
+				</div>
+			</div>
+	
+		</section>
+		
+		
+<!-- ==============================================
+		Services
+		=============================================== -->
+		<section id="services" class="section">
+			
+			<div class="container">
+				<div class="row">
+					<div class="span12">
+						<h1>Услуги</h1>
+						<hr class="fancy-hr">
+					</div>
+					<div class="span9">
+						<h3>Мы занимаемся разработкой сайтов-визиток, интернет-магазинов, SEO оптимизацией, создаем дизайн будущего сайта с нуля. Также в сферу наших услуг входит доработка уже начатых проектов и консультация по вопросам, которые связанны с веб-проектированием.</h3>
+					</div>
+					<div class="span3 last">
+						<a href="#contacts" class="button float-right content-menu-link">Сделать заказ</a>
+					</div> 
+				</div>
+				<div class="row">
+					<div class="span12">
+						<hr class="fancy-hr">
+					</div>
+				</div>
+				<div class="row features">
+					<div class="span3 feature-box">
+						<div class="box-content">
+							<img src="images/icons/hourglass.png" style="height: 75px;">
+							<h4>Завершение работы точно в срок</h4>
+							<p>Главными критериями нашей работы являются гарантия качества и выполнения задачи точно в срок</p>
+						</div>
+					</div>
+					<div class="span3 feature-box">
+						<div class="box-content">
+							<img src="images/icons/bag.png" style="height: 75px;">
+							<h4>Удобные способы оплаты</h4>
+							<p>Мы работаем со всеми известными платежными системами.</p>
+						</div>
+					</div>
+					<div class="span3 feature-box">
+						<div class="box-content">
+							<img src="images/icons/assistant32.png" style="height: 75px;">
+							<h4>Всегда онлайн</h4>
+							<p>Мы готовы выйти с Вами на связь в любое удобное для Вас время суток.</p>
+						</div>
+					</div>
+					<div class="span3 feature-box">
+						<div class="box-content">
+							<img src="images/icons/pencil.png" style="height: 75px;">
+							<h4>Доработки</h4>
+							<p>Мы доработаем Ваш веб-продукт и проконсультируем всем интересующим Вас вопросам.</p>
+						</div>
+					</div>
+				</div> <!-- End Row Features -->
+				<div class="row">
+					<div class="span12">
+						<hr class="fancy-hr">
+						<div class="row">
+							<div class="span8 features-list">
+								<h2>Почему мы?</h2>
+								<div class="row">
+									<div class="span4">
+										<div class="feature-box">
+											<div class="feature-icon">
+												<img src="images/icons/luggage.png" style="height: 15px;">
+											</div>
+											<div class="feature-text">
+												<h3>Большой багаж опыта</h3>
+												<p>Мы находимся на рынке веб-програмирования уже более 4-х лет.</p>
+											</div>
+										</div>
+										<div class="feature-box">
+											<div class="feature-icon">
+												<img src="images/icons/user.png" style="height: 15px;">
+											</div>
+											<div class="feature-text">
+												<h3>Надёжность</h3>
+												<p>Ваши проекти находятся в руках у самых лучших специалистов.</p>
+											</div>
+										</div>
+										<div class="feature-box">
+											<div class="feature-icon">
+												<img src="images/icons/messenger.png" style="height: 15px;">
+											</div>
+											<div class="feature-text">
+												<h3>Уважение</h3>
+												<p>Наши отношения с клиентами строятся в первую очередь на уважении, поэтому к каждому клиенту предусмотрен индивидуальный подход.</p>
+											</div>
+										</div>
+									</div> <!-- End Span4 -->
+									<div class="span4">
+										<div class="feature-box">
+											<div class="feature-icon">
+												<img src="images/icons/checkmark.png" style="height: 15px;">
+											</div>
+											<div class="feature-text">
+												<h3>Гарантии</h3>
+												<p>Гарантиями нашего профессионализма выступает наша репутация.</p>
+											</div>
+										</div>
+									<div class="feature-box">
+
+										</div>
+									</div> <!-- End Span4 -->
+								</div> <!-- End Row -->
+							</div> <!-- End Span8 -->
+							<div class="span4">
+								<h2>Стоимость</h2>
+								<div class="accordion" id="accordion">
+								  	<div class="accordion-group">
+								    	<div class="accordion-heading">
+								      		<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+								        		<img src="images/icons/money.png" style="height: 15px; margin-bottom: -3px;">&nbsp;Цены
+								      		</a>
+								    	</div>
+									    <div id="collapseOne" class="accordion-body collapse in">
+									      	<div class="accordion-inner">
+									        	Каждый заказ оценивается нами индивидульно, так как цена формируется, прежде всего, от сроков выполнения и сложности поставленной задачи.
+									      	</div>
+									    </div>
+								  	</div>
+								  	<div class="accordion-group">
+								    	<div class="accordion-heading">
+									      	<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+									        	<img src="images/icons/sale48.png" style="height: 15px; margin-bottom: -3px;">&nbsp;Скидки
+									      	</a>
+								    	</div>
+								    	<div id="collapseTwo" class="accordion-body collapse">
+								      		<div class="accordion-inner">
+								        		Для постоянных заказчиков нами предусмотрена гибкая система скидок. 
+								      		</div>
+								    	</div>
+								  	</div>
+								</div>
+							</div> <!-- End Span4 -->
+						</div> <!-- End Row -->
+
+					</div> <!-- End Span12 -->
+				</div> <!-- End Row -->
+
+			</div>
+
+		</section>
+		
+	
+		
+<!-- ==============================================
+		About Us
+		=============================================== -->
+		<section id="about" class="section">
+			<div class="container about_us">
+<h1>О нас</h1>
+<hr class="fancy-hr">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus gravida pulvinar condimentum. Aenean non placerat urna. Aliquam pharetra mi at nisl dictum pharetra. Donec at ipsum nec ipsum molestie mattis. Ut urna sapien, pulvinar quis ante id, bibendum aliquam mauris. Proin molestie sem ut euismod imperdiet. In arcu sapien, pulvinar eu leo et, euismod interdum dolor. Aenean pharetra vel mauris a imperdiet. Ut vulputate, eros non molestie varius, massa tellus rhoncus risus, at fermentum nunc tellus bibendum lacus. Donec rhoncus orci at fermentum fringilla. Sed dignissim sem nec ipsum dictum cursus. Maecenas elit dui, laoreet congue molestie vel, condimentum in massa. Ut at elit tincidunt, posuere ipsum et, cursus magna. Nullam ultrices id massa vitae cursus.</p>
+
+<p>Praesent fringilla vestibulum viverra. Maecenas quam elit, ultricies ac hendrerit sit amet, fringilla a dui. In aliquet fermentum diam, ut tincidunt eros. Proin non elit nec ipsum pharetra tincidunt. Maecenas eu sem luctus, gravida mi faucibus, auctor lacus. Nulla at semper nisi. Phasellus sit amet varius mauris. Donec sollicitudin vulputate eros.</p>
+
+<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque ornare tempus commodo. Vestibulum mollis neque nisi, viverra congue arcu feugiat eget. Donec consectetur ac nulla adipiscing porttitor. Nunc non nisl felis. Maecenas ante quam, scelerisque eget tortor vitae, tristique congue massa. Donec vel eros nec turpis pellentesque congue vitae nec nibh. Sed scelerisque metus felis, vitae lacinia sem vulputate ut. Donec fermentum erat justo, ornare suscipit eros congue id. Ut vulputate erat eget facilisis molestie. Maecenas nec viverra tortor. Suspendisse varius risus rhoncus lorem lacinia tincidunt. Aenean vel faucibus purus. Proin vulputate nulla ut nunc porta, vitae pellentesque diam faucibus.</p>
+<hr class="fancy-hr">
+<div class="row features">
+					<div class="span3 feature-box">
+						<div class="box-content">
+		<img src="images/russia/igor.png"> 
+							<h4>Игорь, г. Санкт-Петербург</h4>
+							<p>Впервые мне посчастливилось работать с MiamiArt год назад. Был очень удивлен качеством предоставленных услуг.
+<a class="button" onclick="$('#form1').slideToggle('slow');" href="javascript://">Читать далее</a>
+<div id="form1" style="display:none;"> Все было просто на высшем уровне! Проблем никаких не возникло, поставленная задача была выполнена точно в срок и без каких-либо нареканий, ребята очень приятные и отзывчивые.</p>
+						</div>
+					</div>
+					</div>
+					<div class="span3 feature-box">
+						<div class="box-content">
+		<img src="images/russia/valeriy.png">
+							<h4>Валерий, г. Ростов-на-Дону</h4>
+							<p>Заказывал у ребят интернет-магазин. Работа была выполнена качественно и в очень короткие сроки. Очень порадовала цена. Спасибо!</p>
+						</div>
+					</div>
+					<div class="span3 feature-box">
+						<div class="box-content">
+		<img src="images/russia/alexandra.png">
+							<h4>Александра, г. Уфа</h4>
+							<p>У нас в Уфе не так-то и просто найти ответственных разработчиков, поэтому мне пришлось прибегнуть к их поиску.
+<a class="button" onclick="$('#form3').slideToggle('slow');" href="javascript://">Читать далее</a>
+<div id="form3" style="display:none;">Чисто случайно наткнулась в интернете на MiamiArt и не прогадала! Качество, оперативность, отзывчивость – это все о них! Необходимо было в сжатые сроки придумать дизайн, а потом все это воплотить в жизнь, так эти ребята даже перевыполнили задачу, сдав проект на день раньше. Очень благодарна им за работу, надеюсь, они не будут сдавать позиций! 
+							</div></p>
+						</div>
+					</div>
+					<div class="span3 feature-box">
+<div class="box-content">
+		<img src="images/russia/anton.png">
+							<h4>Антон, г. Москва</h4>
+							<p>Парни, ну вы вообще молодцы! Спасибо вам за работу, очень всем доволен, никаких проблем нет, все было сделано очень быстро и ответственно, всем советую только MiamiArt!  
+							</p>
+						</div>
+					</div>
+				</div> <!-- End Row Features -->
+				<div class="row">
+					<div class="span12">
+						
+						<hr class="fancy-hr">
+						<div class="row">
+							<div class="span8">
+								<div class="row">
+									<div class="span4 top-margin">
+										<h3>Наша миссия:</h3>
+										<p>Помощь нашим клиентам в разработке веб-продукта.</p>
+									</div>
+									<div class="span4 top-margin bottom-margin">
+										<h3>Наш подход:</h3>
+										<p></p>
+										<ul class="icons">
+											<li><img src="images/icons/checkmark2.png">&nbsp;Отзывчивость;</li>
+											<li><img src="images/icons/checkmark2.png">&nbsp;Лояльность;</li>
+											<li><img src="images/icons/checkmark2.png">&nbsp;Оперативность;</li>
+											<li><img src="images/icons/checkmark2.png">&nbsp;Честность;</li>
+											<li><img src="images/icons/checkmark2.png">&nbsp;Точность;</li>
+											<li><img src="images/icons/checkmark2.png">&nbsp;Качество;</li>
+											<li><img src="images/icons/checkmark2.png">&nbsp;Прогрессивность;</li>
+											<li><img src="images/icons/checkmark2.png">&nbsp;Креативность.</li>
+										</ul>
+									</div>
+								</div>
+							</div> <!-- End Span8 -->
+							<div class="span4">
+								<h3>Наши возможности:</h3>
+								<div class="progress">
+									<div class="bar" style="width: 100%;">
+										Сайты-визитки
+									</div>
+								</div>
+								<div class="progress">
+									<div class="bar" style="width: 80%;">
+										Интернет-магазины
+									</div>
+								</div>
+								<div class="progress">
+									<div class="bar" style="width: 75%;">
+										Вёрстка
+									</div>
+								</div>
+								<div class="progress">
+									<div class="bar" style="width: 45%;">
+										SEO
+									</div>
+								</div>
+								<div class="progress">
+									<div class="bar" style="width: 40%;">
+										Дизайн
+									</div>
+								</div>
+							</div> <!-- End Span4 -->
+
+						</div> <!-- End Row -->
+					</div> <!-- End Span12 -->
+				</div> <!-- End Row -->
+
+
+
+			</div>	
+		</section>
+
+<!-- ==============================================
+		Contacts
+		=============================================== -->
+		<section id="contacts" class="section">
+
+			<div class="container">
+				<div class="row">
+					<div class="span7">
+						<form action="send-mail.php" method="post" class="contact-form">
+							<h1>Свяжитесь с нами</h1>
+							<hr class="fancy-hr">
+							<input type="text" name="name" placeholder="Имя" class="required">
+							<input type="email" name="email" placeholder="Электронная почта" class="required">
+							<input type="fone" name="fone" placeholder="Телефон" class="required">	
+							<input type="tema" name="tema" placeholder="Тема" class="required">							
+							<textarea name="message" placeholder="Сообщение" class="required"></textarea>
+							<input type="text" name="check" placeholder="4+5?" class="required">
+							<div class="response-message"></div>
+							<input type="submit" value="Отправить" name="submit" class="float-right">
+											
+							<div class="clear"></div>
+						</form>
+					</div> <!-- End Span7 -->
+					<div class="span4 offset1">
+						<div class="contact-info">
+							<h2 class="no-bottom-margin">Контакты</h2>
+							<hr class="fancy-hr">
+							<ul class="icons">
+								<li>Веб-студия Miami Art</li>
+								<li><img src="images/icons/phone26.png">&nbsp;+38 (096) 334 66 17</li>
+								<li><img src="images/icons/phone26.png">&nbsp;+38 (066) 190 06 25</li>
+								<li><img src="images/icons/skype26.png">&nbsp;miami.art</li>
+								<li><img src="images/icons/maly.png">&nbsp;<a href="http://vk.com/miami_art">vk.com/miami_art</a></li>
+								<li><img src="images/icons/mail.png" style="margin-left: -5px;">&nbsp;<a href="mailto:">support@miart.com.ua</a></li>
+							</ul>
+
+						</div>
+						
+						<div class="social">
+							<h3 class="no-bottom-margin">Вконтакте</h3>
+								<hr class="fancy-hr">
+								<!-- VK Widget -->
+<div id="vk_groups">
+<script type="text/javascript">
+VK.Widgets.Group("vk_groups", {mode: 0, width: "220", height: "270", color1: 'FFFFFF', color2: '512708', color3: 'f6822b'}, 43829059);
+</script>
+</div>
+</div>
+			</div>
+					</div> <!-- End Span4 -->
+				</div> <!-- End Row -->
+			</div>
+
+			<div id="map"></div>
+			
+		</section>
+
+<!-- ==============================================
+		Portfolio
+		=============================================== -->
+		<section id="portfolio" class="section">
+			
+			<div class="single-portfolio">
+
+			</div>
+
+			<div class="container">
+				<div class="row">
+					<div class="span12">
+						<h1>Наше портфолио</h1>
+						<hr class="fancy-hr">
+						
+					</div>
+				</div>
+				<div class="row portfolio">
+					<div class="span4 science portfolio-item">
+						<a href="#" data-file="portfolio/portfolio-single.html">
+							<img src="images/portfolio/liveticket/liveticket_small.png" alt="liveticket_small">
+							<i class="icon-plus"></i>
+						</a>
+					</div>
+
+					<div class="span4 internet portfolio-item">
+						<a href="#" data-file="portfolio/portfolio-single4.html">
+							<img src="images/rebenok.jpg" alt="Rebenok.cn.ua">
+							<i class="icon-plus"></i>
+						</a>
+					</div>
+						
+						<div class="span4 science portfolio-item">
+						<a href="#" data-file="portfolio/portfolio-single3.html">
+							<img src="http://диплом.com.ua/wp-content/uploads/611875_small-441x269.jpg" alt="Диплом">
+							<i class="icon-plus"></i>
+						</a>
+					</div>
+
+					<div class="span4 science portfolio-item">
+						<a href="#" data-file="portfolio/portfolio-single2.html">
+							<img src="images/love.jpg" alt="Долинская">
+							<i class="icon-plus"></i>
+						</a>
+					</div>
+<!--					
+<div class="span4 photography web-design portfolio-item">
+						<a href="#" data-file="portfolio-single-video.html">
+							<img src="http://placehold.it/460x300" alt="">
+							<i class="icon-plus"></i>
+						</a>
+					</div>
+					<div class="span4 web-design portfolio-item">
+						<a href="#" data-file="portfolio-single-gallery.html">
+							<img src="http://placehold.it/460x300" alt="">
+							<i class="icon-plus"></i>
+						</a>
+					</div>
+					<div class="span4 brands portfolio-item">
+						<a href="#" data-file="portfolio-single.html">
+							<img src="http://placehold.it/460x300" alt="">
+							<i class="icon-plus"></i>
+						</a>
+					</div>
+					<div class="span4 photography brands portfolio-item">
+						<a href="#" data-file="portfolio-single-video.html">
+							<img src="http://placehold.it/460x300" alt="">
+							<i class="icon-plus"></i>
+						</a>
+					</div>
+					<div class="span4 photography portfolio-item">
+						<a href="#" data-file="portfolio-single-gallery.html">
+							<img src="http://placehold.it/460x300" alt="">
+							<i class="icon-plus"></i>
+						</a>
+					</div>
+					<div class="span4 brands portfolio-item">
+						<a href="#" data-file="portfolio-single.html">
+							<img src="http://placehold.it/460x300" alt="">
+							<i class="icon-plus"></i>
+						</a>
+					</div>
+					<div class="span4 web-design portfolio-item">
+						<a href="#" data-file="portfolio-single-video.html">
+							<img src="http://placehold.it/460x300" alt="">
+							<i class="icon-plus"></i>
+						</a>
+					</div>
+					<div class="span4 web-design brands portfolio-item">
+						<a href="#" data-file="portfolio-single-gallery.html">
+							<img src="http://placehold.it/460x300" alt="">
+							<i class="icon-plus"></i>
+						</a>
+					</div>
+-->
+				</div> <!-- End Row Portfolio -->
+			</div>
+			
+		</section>
+
+		<!-- ==============================================
+		JS
+		=============================================== -->
+		<script type="text/javascript" src="js/jquery.min.js"></script> <!-- jQuery main file -->
+		<script type="text/javascript" src="js/bootstrap.min.js"></script> <!-- jQuery main file -->
+		<script type="text/javascript" src="js/jquery.easing.pack.js"></script> <!-- Easing Pack -->
+		<script type="text/javascript" src="js/jquery.mousewheel.pack.js"></script> <!-- Mousewheel Pack -->
+		<script type="text/javascript" src="js/jquery.fancybox.pack.js"></script> <!-- Fancybox -->
+		<script type="text/javascript" src="js/jquery.flexslider.min.js"></script> <!-- Flexslider -->
+		<script type="text/javascript" src="js/jquery.isotope.min.js"></script><!-- Isotope -->
+		<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script><!-- Google Maps -->
+		<script type="text/javascript" src="js/jquery.validate.min.js"></script> <!-- Form Validation -->
+		<script type="text/javascript" src="js/reversal.js"></script> <!-- Custom JS -->	
+
+
+</body>
+</html>
