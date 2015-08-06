@@ -1,4 +1,6 @@
-# Rewrite to no www
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^www\.(.+) [NC]
-RewriteRule .* http://%1/$0 [L,R=301]
+<IfModule mod_rewrite.c>
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www\.site\.ru$ [NC]
+RewriteRule ^(.*)$ http://site.ru/$1 [R=301,L]
+</IfModule>
