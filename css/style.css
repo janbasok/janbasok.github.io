@@ -592,10 +592,13 @@ Intro
 	font-size: 60px;
 	color: #111111;
 	margin-bottom: 0px;
+	margin-top: 50px;
 	line-height: 80px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	font-weight: 700;
+    background-color: #fff;
+    opacity: 0.8;	
 }
 
 #intro h1 span {
@@ -616,6 +619,7 @@ Intro
 	padding: 10px 5px;
 	background-color: #f6822b;
 	color: #ffffff;
+	font-size: 20px;
 }
 
 .get-started i {
