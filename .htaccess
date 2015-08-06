@@ -1,3 +1,4 @@
+# Rewrite to no www
 RewriteEngine On
-RewriteCond %{HTTP_HOST} www.basok.tk
-RewriteRule (.*) http://basok.tk/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^www\.(.+) [NC]
+RewriteRule .* http://%1/$0 [L,R=301]
