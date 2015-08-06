@@ -1,6 +1,2 @@
-<IfModule mod_rewrite.c>
-Options +FollowSymLinks
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^www\.site\.ru$ [NC]
-RewriteRule ^(.*)$ http://site.ru/$1 [R=301,L]
-</IfModule>
+RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
