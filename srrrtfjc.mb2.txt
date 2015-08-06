@@ -1,0 +1,14 @@
+﻿intro back + delete .htaccess
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# You are currently rebasing branch 'master' on '6afb52d'.
+#
+# Changes to be committed:
+#	deleted:    .htaccess
+#	new file:   0eyzbcly.i5b.txt
+#	modified:   css/style.css
+#	new file:   vmjdtuli.1ie.txt
+#
+
