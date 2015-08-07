@@ -299,8 +299,8 @@ Basic Layout Styles
 	margin-left: 30px;
 }
 .icons img {
-	height: 10px;
-	margin-bottom: 0;
+    height: 15px;
+    margin-bottom: -2px;
 }
 
 .button {
