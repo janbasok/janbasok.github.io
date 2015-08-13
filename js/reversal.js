@@ -95,7 +95,7 @@ $(document).ready(function() {
         
     }
 
-    setNavigation();
+    //setNavigation();
 
     function adjustNavigation() {
         var nav = $('nav#main-nav'),
@@ -123,11 +123,11 @@ $(document).ready(function() {
     }
 
     $(window).scroll(function() {
-        adjustNavigation();
+      //  adjustNavigation();
     });
 
     $(window).resize(function() {
-        adjustNavigation();
+       // adjustNavigation();
     });
 
     /* ==============================================
