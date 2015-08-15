@@ -950,7 +950,9 @@ Isotope Transitions
 Contacts
 ================================================================== */
 
-
+.icon-list{
+	color:#fff;
+}
 
 #map {
 	position: absolute;

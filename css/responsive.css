@@ -51,7 +51,18 @@ Tablet Portrait size to Tablet Landscape (devices and browsers)
 All Mobile Sizes (devices and browsers)
 ================================================================== */
 @media only screen and (max-width: 767px) {
-
+	nav#main-nav ul {
+		margin-top:0;
+	}	
+	
+	a.logo {
+		margin: 0
+	}	
+	
+	.portfolio .portfolio-item i, .fancybox i {
+		background-position: center 28px;
+	}
+	
 	body {
 		overflow: visible;
 	}
