@@ -296,7 +296,7 @@ $(document).ready(function() {
     =============================================== */
     $(window).load(function(){
 
-        var $container = $('.portfolio');
+       /* var $container = $('.portfolio');
         $container.isotope({
             filter: '*',
             animationOptions: {
@@ -480,7 +480,7 @@ $(document).ready(function() {
                 });
             }
 
-        });
+        });*/
 
         /* ==============================================
         Flexslider
